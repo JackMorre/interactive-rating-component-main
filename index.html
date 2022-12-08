@@ -19,15 +19,15 @@
   <!-- Rating state start -->
 <main class="rating-state">
   <div class="container" id="rating">
-    <div class="image-container"><img class="icon-star" src="/images/icon-star.svg" alt="" aria-hidden=“true”></div>
-    <h3 class="title-body">How did we do?</h3>
+    <div class="image-container"><img class="icon-star" src="/images/icon-star.svg" alt="" aria-hidden=“true” aria-label="star-imge"></div>
+    <h3 class="title-body" aria-label="text question">How did we do?</h3>
 
-    <p class="text-body">Please let us know how we did with your support request. All feedback is appreciated 
+    <p class="text-body" aria-label="main text">Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
 
     <p class="hidden selection-text no-bg" id="no-rating">Please select a rating!</p>
 
-      <form>
+      <form aria-label="number selector">
         <fieldset class="flex" > 
           <label for="one" class="number-style">
             <input type="radio" id="one" name="selection" class="selection">1
@@ -57,7 +57,7 @@
         <p class="number-style">5</p>
       </div> -->
 
-      <button class="button">Submit</button>
+      <button aria-label="submit" class="button">Submit</button>
     </div>
 
 
@@ -67,14 +67,14 @@
 
     <div class="container hidden" id="final">
       <div class="thank-you--image-container
-      "> <img class="thank-you-image" src="/images/illustration-thank-you.svg" alt="" aria-hidden=“true”></div>
+      "> <img class="thank-you-image" src="/images/illustration-thank-you.svg" alt="" aria-hidden=“true” ></div>
    
       <div class="orange-container">
-      <p class="selection-text text-center">You selected <span class="selected-number">4</span> out of 5</p>
+      <p class="selection-text text-center" aria-label="your selection">You selected <span class="selected-number">4</span> out of 5</p>
     </div>
   
 
-    <h3 class="title-body text-center margin-bot">Thank you!</h3> 
+    <h3 class="title-body text-center margin-bot" aria-label="thanks">Thank you!</h3> 
 
     <p class="text-body text-center"> We appreciate you taking the time to give a rating. If you ever need more support, 
   don’t hesitate to get in touch!</p>
